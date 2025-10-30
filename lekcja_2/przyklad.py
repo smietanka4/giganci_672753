@@ -32,4 +32,5 @@ print(m)
 m = n
 print(m)
 
-
+skibidi = "skibidi" # zmienne zawsze z małej litery
+GLEBOKOSC = 5.8 # stałe w naszych programach będziemy pisać z dużych liter
