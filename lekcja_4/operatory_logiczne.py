@@ -50,8 +50,8 @@ print(werdykt)
 # Operator jednoargumentowy NOT
 print("=== Operator NOT ===")
 
-print(not True)
-print(not False)
+print(not True) # False
+print(not False) # True
 
 #przykłady
 print("=== Przykłady dla operatora NOT ===")
@@ -120,6 +120,8 @@ print(False, (-1 < 3) and (2 < 9) and (10 == 15)) # (True and True) and False =>
 print(True, (20.05 < 21 < 10) or (-10 < 20 < 150 <= 150)) # False or True => True
 print(False, (1 < 10) and (2 < 15) and (-50 == 42)) # (True and True) and False => True and False => False 
 print(True, not 2 == 10) # => not False => True
+
+
 
 
 
