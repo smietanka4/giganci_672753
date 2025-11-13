@@ -74,6 +74,43 @@ if wiek >= 12 and wzrost >= 130 and wzrost <= 190:
 else:
     print("Nie wolno Ci skorzystać z atrakcji")
 
+# Konstrukcja if-elif-else 
+
+warunek = False
+warunek2 = True
+warunek3 = False
+
+# elif -> else if (w przeciwnym przypadku jeżeli)
+if warunek:
+    print("warunek 1 jest prawdziwy")
+elif warunek2:
+    print("warunek 2 jest prawdziwy")
+elif warunek3:
+    print("warunek 3 jest prawdziwy")
+else:
+    print("żaden warunek nie był prawdziwy")
+
+print("===== ZADANIE 3 =====")
+
+'''
+Jaką liczbę całkowitą wprowadzono: pozytywną, negatywną, czy równą zero?
+Liczba może przyjąć tylko jedną z podanych opcji.
+Użytkownik ma podać liczbę.
+'''
+
+liczba = int(input("Podaj liczbę: ")) # Pobieramy liczbę od użytkownika
+
+if liczba > 0: # Sprawdzamy czy wprowadzona liczba jest większa od 0?
+    print("Liczba jest dodatnia")
+elif liczba < 0: # Jeżeli pierwszy warunek się nie sprawdził, to przechodzimy dalej i sprawdzamy czy liczba jest ujemna
+    print("Liczba jest negatywna") 
+else: # W przeciwnym przypadku, czyli jeżeli żaden z powyższych warunków, nie został spełniony
+    print("Liczba jest równa zero")
+
+
+
+
+
 
 
 
