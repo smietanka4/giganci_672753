@@ -72,3 +72,16 @@ Hasło: „Masło”
       -> Jeżeli nie, to komunikat o tym że wprowadzono niepoprawny pin
 '''
 
+PIN = "1234"
+HASLO = "Masło"
+user_pin = input("Podaj pin: ")
+if user_pin == PIN:
+      user_haslo = input("Podaj hasło")
+      if user_haslo == HASLO:
+            print("Poprawnie zalogowano")
+            # Miejsce na tajne treści :D
+      else:
+            print("Wprowadzono niepoprawne hasło")
+else:
+      print("Podano niepoprawny pin")
+
