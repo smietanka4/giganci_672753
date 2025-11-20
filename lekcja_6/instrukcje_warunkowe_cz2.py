@@ -74,6 +74,7 @@ Hasło: „Masło”
 
 PIN = "1234"
 HASLO = "Masło"
+
 user_pin = input("Podaj pin: ")
 if user_pin == PIN:
       user_haslo = input("Podaj hasło")
