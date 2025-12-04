@@ -52,3 +52,5 @@ for i in range(wiek_rocznikowo+1):
 
 
 
+
+

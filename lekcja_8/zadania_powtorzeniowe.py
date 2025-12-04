@@ -27,3 +27,52 @@
       Dodatkowe: Program, który wypisze wszystkie elementy ciągu Fibonacciego, które są
       mniejsze od wprowadzonej liczby.
 '''
+
+print("===== Zadanie 1 =====")
+
+wysokosc = int(input("Podaj wysokość choinki: "))
+
+for i in range(1, wysokosc + 1):
+    print(" " * (wysokosc - i) + "* " * i)
+
+print("\nPiramida:")
+for i in range(1, wysokosc + 1):
+    print(" " * (wysokosc - i) + "*" * (2 * i - 1))
+
+
+print("===== Zadanie 2 =====")
+
+wysokosc = int(input("Podaj wysokość prostokąta: "))
+szerokosc = int(input("Podaj szerokość prostokąta: "))
+
+print("\nProstokąt wypełniony:")
+for i in range(wysokosc):
+    print("*" * szerokosc)
+
+print("\nProstokąt pusty w środku:")
+for i in range(wysokosc):
+    if i == 0 or i == wysokosc - 1:
+        print("*" * szerokosc)
+    else:
+        print("*" + " " * (szerokosc - 2) + "*")
+
+
+print("===== Zadanie 3 =====")
+
+n = int(input("Podaj liczbę dodatnią: "))
+
+if n <= 0:
+      print("Podaj liczbę dodatnią!")
+else:
+      print("Pierwsze", n, "elementów ciągu Fibonacciego:")
+      a, b = 0, 1
+      for i in range(n):
+            print(a)
+            a, b = b, a + b
+
+      print("Elementy mniejsze od",n,":")
+      a, b = 0, 1
+      while a < n:
+            print(a)
+            a, b = b, a + b
+
