@@ -65,5 +65,16 @@ Jestem
 Karol
 '''
 
+liczba_elementow = int(input("Podaj liczbę elementów"))
+elementy = []
+
+for i in range(liczba_elementow):
+      komunikat = input(f"Podaj element numer {i}")
+      elementy.append(komunikat)
+
+for i in range(len(elementy)):
+      element = elementy[i]
+      print(element)
+
 
 
