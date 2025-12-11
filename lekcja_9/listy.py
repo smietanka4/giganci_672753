@@ -82,3 +82,54 @@ print("=============")
 # Przechodzenie po indeksach listy
 for index in range(len(oceny)):
       print(oceny[index])
+
+# ===== Indeksy CZ.2 =====
+print("===== INDEKSY CZ.2 =====")
+
+# Indeksy:   0  1  2  3  4  5  6  7  8    9  10  11   12  13  14
+liczby =    [9, 1, 0, 2, 0, 3, 4, 5, 10, -1, 20, 32, -20, -3, -4]
+# Indeksy: -15                                                -1
+
+nowa_lista = liczby[-13: -5]
+print(nowa_lista)
+
+nowa_lista2 = liczby[2:10]
+print(nowa_lista2)
+
+# Odczytywanie elementów z listy - sposób nr.2
+oceny_z_3_sprawdzianów = [5, 4.5, 3]
+ocena1, ocena2, ocena3 = oceny_z_3_sprawdzianów
+print(ocena2)
+
+ocena1, ocena2 = oceny_z_3_sprawdzianów[:2]
+print(ocena1)
+
+# ===== Sprawdzanie czy element jest w liście =====
+print("======================")
+
+liczby = [5, 6, 7, 5.23, 0.1, 4.2]
+
+if 6 in liczby:
+      # Kod wykonywany, jeśli szóstka znajduje się w liście
+      print("Jest!")
+
+# ===== Stringi ponowne spojrzenie =====
+print("======================")
+
+napis = "Ala ma kota"
+print(napis[5])
+
+for litera in napis:
+      print(f"Litera: {litera}")
+
+# metoda .join -> pozwala na proste połączenie elementów listy za pomocą konkretnego tekstu
+
+slowa = ["Ala", "ma", "kota"]
+tekst = " ".join(slowa)
+#       napis.typu_str.join(lista_elementów)
+print(tekst)
+
+
+
+
+
