@@ -27,10 +27,30 @@ def powitanie2(powtorzenia, imie):
       for i in range(powtorzenia):
             print(f"Hej {imie}!")
 
-powitanie2("Tomek", 5)
+powitanie2(5, "Tomek")
 
-'''
-Przygotuj funkcję obliczającą pole prostokąta. 
-Funkcja ma przyjmować długości boków, a następnie obliczać i
-wyświetlać pole figury.
-'''
+# # end=""
+print("Witaj", end=" ")
+print("Świecie")
+print("!")
+
+# # Zamiana argumentów miejscami
+def powitanie(imie, lata):
+      print("Hej ", imie, f"Pracujesz w naszej firmie już {lata} lata")
+
+powitanie(lata=50, imie="Karol")
+
+# Zwracanie argumentów przez funkcje
+
+def pole_kwadratu(a):
+      pole = a*a
+      return pole
+
+def objetosc(pole_podstawy, H):
+      objetosc = pole_podstawy * H
+      print(objetosc)
+
+
+pole_kwadratu_o_boku_5 = pole_kwadratu(5)
+
+objetosc(pole_kwadratu_o_boku_5, 3)
