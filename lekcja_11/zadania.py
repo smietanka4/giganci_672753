@@ -40,3 +40,6 @@ def podzielna(liczba, dzielnik):
             return f"Liczba {liczba} nie jest podzielna przez {dzielnik}"
       
 print(podzielna(2,3))
+
+
+
