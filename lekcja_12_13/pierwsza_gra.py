@@ -61,7 +61,7 @@ def limit_position(position):
 
 # Zmienne dla gracza
 player_pos = [SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2]
-player = load_image('lekcja_12\player.png', player_pos)
+player = load_image('lekcja_12_13\player.png', player_pos)
 background_color = [150, 223, 191]
 
 # nadanie nazwy oknu
